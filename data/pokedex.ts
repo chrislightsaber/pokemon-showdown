@@ -43649,32 +43649,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	  gen: 9
 	},
 	bulbabuff: {
-	  num: 5175,
-	  name: "Bulbabuff",
-	  types: [
-		"fairy",
-		"poison"
-	  ],
-	  baseStats: {
-		hp: 60,
-		atk: 36,
-		def: 26,
-		spa: 56,
-		spd: 50,
-		spe: 25
-	  },
-	  abilities: {
-		0: "noability",
-		H: "noability"
-	  },
-	  heightm: 0.5,
-	  weightkg: 4,
-	  color: "Gray",
-	  evos: [],
-	  eggGroups: [
-		"Undiscovered"
-	  ],
-	  gen: 9
+		num: 5175,
+		name: "Bulbabuff",
+		types: ["Fairy", "Poison"],
+		genderRatio: {M: 0.875, F: 0.125},
+		baseStats: {hp: 60, atk: 36, def: 26, spa: 56, spd: 50, spe: 25},
+		abilities: {0: "noability", H: "noability"},
+		heightm: 0.7,
+		weightkg: 6.9,
+		color: "Green",
+		evos: [],
+		eggGroups: ["Monster", "Grass"],
 	},
 	bulbasola: {
 	  num: 5223,
